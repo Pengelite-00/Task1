@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace GoblinGame
 {
    public class Hero : Character
-    {
+    {   //Question 2.6
         public Hero (int x, int y, int hp, int damage) : base(x,y,'H')                 //Constructor deriving variables from Character class
         {
             this.HP = hp;
