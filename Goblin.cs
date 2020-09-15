@@ -8,7 +8,7 @@ namespace GoblinGame
 {
     public class Goblin : Enemy
     {
-
+        //Question 2.5
         public Goblin (int x, int y) : base (x,y,1,10,'G')                               //Constructor Aquiring variables from Enemy Class
         {
             
