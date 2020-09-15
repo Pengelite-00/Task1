@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace GoblinGame
 {
 
-
+    //Question 2.1
     public abstract class Tile
     {
         protected int x;
