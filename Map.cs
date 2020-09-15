@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace GoblinGame
 {
     
-    
+        //Question 3.1 and 3.2
         public class Map
         {
             public Tile[,] gameMap;
