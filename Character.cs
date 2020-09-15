@@ -18,7 +18,9 @@ namespace GoblinGame
         {
             characterVision = new Tile[4];
         }
-
+        
+        //Question 2.2
+        
         public int healthPoints                                  //Gets and sets for above variables
         {
             get { return HP; }
@@ -43,9 +45,11 @@ namespace GoblinGame
             set { characterVision = value; }
         }
 
-
+        
         public enum Movement { NO_MOVEMENT, UP, DOWN, LEFT, RIGHT}         
-
+        
+        
+        //Question 2.3
 
         public virtual void Attack(Character hostile)                        //placeholder
         {
