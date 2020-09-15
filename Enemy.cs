@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace GoblinGame
-{
+{       //Question 2.4
     public abstract class Enemy : Character
     {
         protected Random rnd;
